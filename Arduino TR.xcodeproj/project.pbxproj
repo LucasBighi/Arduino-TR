@@ -1,0 +1,589 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9642E5DD2106727D009E2A83 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9642E5DC2106727D009E2A83 /* AppDelegate.swift */; };
+		9642E5DF2106727D009E2A83 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9642E5DE2106727D009E2A83 /* ViewController.swift */; };
+		9642E5E22106727D009E2A83 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9642E5E02106727D009E2A83 /* Main.storyboard */; };
+		9642E5E42106727F009E2A83 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9642E5E32106727F009E2A83 /* Assets.xcassets */; };
+		9642E5E72106727F009E2A83 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9642E5E52106727F009E2A83 /* LaunchScreen.storyboard */; };
+		9642E5F221067280009E2A83 /* Arduino_TRTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9642E5F121067280009E2A83 /* Arduino_TRTests.swift */; };
+		9642E5FD21067280009E2A83 /* Arduino_TRUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9642E5FC21067280009E2A83 /* Arduino_TRUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9642E5EE21067280009E2A83 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9642E5D12106727D009E2A83 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9642E5D82106727D009E2A83;
+			remoteInfo = "Arduino TR";
+		};
+		9642E5F921067280009E2A83 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9642E5D12106727D009E2A83 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9642E5D82106727D009E2A83;
+			remoteInfo = "Arduino TR";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		9642E5D92106727D009E2A83 /* Arduino TR.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Arduino TR.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9642E5DC2106727D009E2A83 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		9642E5DE2106727D009E2A83 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		9642E5E12106727D009E2A83 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		9642E5E32106727F009E2A83 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9642E5E62106727F009E2A83 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		9642E5E82106727F009E2A83 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9642E5ED21067280009E2A83 /* Arduino TRTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Arduino TRTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9642E5F121067280009E2A83 /* Arduino_TRTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Arduino_TRTests.swift; sourceTree = "<group>"; };
+		9642E5F321067280009E2A83 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9642E5F821067280009E2A83 /* Arduino TRUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Arduino TRUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9642E5FC21067280009E2A83 /* Arduino_TRUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Arduino_TRUITests.swift; sourceTree = "<group>"; };
+		9642E5FE21067280009E2A83 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9642E5D62106727D009E2A83 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9642E5EA21067280009E2A83 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9642E5F521067280009E2A83 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9642E5D02106727D009E2A83 = {
+			isa = PBXGroup;
+			children = (
+				9642E5DB2106727D009E2A83 /* Arduino TR */,
+				9642E5F021067280009E2A83 /* Arduino TRTests */,
+				9642E5FB21067280009E2A83 /* Arduino TRUITests */,
+				9642E5DA2106727D009E2A83 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9642E5DA2106727D009E2A83 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9642E5D92106727D009E2A83 /* Arduino TR.app */,
+				9642E5ED21067280009E2A83 /* Arduino TRTests.xctest */,
+				9642E5F821067280009E2A83 /* Arduino TRUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9642E5DB2106727D009E2A83 /* Arduino TR */ = {
+			isa = PBXGroup;
+			children = (
+				9642E5DC2106727D009E2A83 /* AppDelegate.swift */,
+				9642E5DE2106727D009E2A83 /* ViewController.swift */,
+				9642E5E02106727D009E2A83 /* Main.storyboard */,
+				9642E5E32106727F009E2A83 /* Assets.xcassets */,
+				9642E5E52106727F009E2A83 /* LaunchScreen.storyboard */,
+				9642E5E82106727F009E2A83 /* Info.plist */,
+			);
+			path = "Arduino TR";
+			sourceTree = "<group>";
+		};
+		9642E5F021067280009E2A83 /* Arduino TRTests */ = {
+			isa = PBXGroup;
+			children = (
+				9642E5F121067280009E2A83 /* Arduino_TRTests.swift */,
+				9642E5F321067280009E2A83 /* Info.plist */,
+			);
+			path = "Arduino TRTests";
+			sourceTree = "<group>";
+		};
+		9642E5FB21067280009E2A83 /* Arduino TRUITests */ = {
+			isa = PBXGroup;
+			children = (
+				9642E5FC21067280009E2A83 /* Arduino_TRUITests.swift */,
+				9642E5FE21067280009E2A83 /* Info.plist */,
+			);
+			path = "Arduino TRUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9642E5D82106727D009E2A83 /* Arduino TR */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9642E60121067280009E2A83 /* Build configuration list for PBXNativeTarget "Arduino TR" */;
+			buildPhases = (
+				9642E5D52106727D009E2A83 /* Sources */,
+				9642E5D62106727D009E2A83 /* Frameworks */,
+				9642E5D72106727D009E2A83 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Arduino TR";
+			productName = "Arduino TR";
+			productReference = 9642E5D92106727D009E2A83 /* Arduino TR.app */;
+			productType = "com.apple.product-type.application";
+		};
+		9642E5EC21067280009E2A83 /* Arduino TRTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9642E60421067280009E2A83 /* Build configuration list for PBXNativeTarget "Arduino TRTests" */;
+			buildPhases = (
+				9642E5E921067280009E2A83 /* Sources */,
+				9642E5EA21067280009E2A83 /* Frameworks */,
+				9642E5EB21067280009E2A83 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9642E5EF21067280009E2A83 /* PBXTargetDependency */,
+			);
+			name = "Arduino TRTests";
+			productName = "Arduino TRTests";
+			productReference = 9642E5ED21067280009E2A83 /* Arduino TRTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		9642E5F721067280009E2A83 /* Arduino TRUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9642E60721067280009E2A83 /* Build configuration list for PBXNativeTarget "Arduino TRUITests" */;
+			buildPhases = (
+				9642E5F421067280009E2A83 /* Sources */,
+				9642E5F521067280009E2A83 /* Frameworks */,
+				9642E5F621067280009E2A83 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9642E5FA21067280009E2A83 /* PBXTargetDependency */,
+			);
+			name = "Arduino TRUITests";
+			productName = "Arduino TRUITests";
+			productReference = 9642E5F821067280009E2A83 /* Arduino TRUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9642E5D12106727D009E2A83 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0940;
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = "Lucas Marques Bighi";
+				TargetAttributes = {
+					9642E5D82106727D009E2A83 = {
+						CreatedOnToolsVersion = 9.4.1;
+					};
+					9642E5EC21067280009E2A83 = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = 9642E5D82106727D009E2A83;
+					};
+					9642E5F721067280009E2A83 = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = 9642E5D82106727D009E2A83;
+					};
+				};
+			};
+			buildConfigurationList = 9642E5D42106727D009E2A83 /* Build configuration list for PBXProject "Arduino TR" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9642E5D02106727D009E2A83;
+			productRefGroup = 9642E5DA2106727D009E2A83 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9642E5D82106727D009E2A83 /* Arduino TR */,
+				9642E5EC21067280009E2A83 /* Arduino TRTests */,
+				9642E5F721067280009E2A83 /* Arduino TRUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9642E5D72106727D009E2A83 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9642E5E72106727F009E2A83 /* LaunchScreen.storyboard in Resources */,
+				9642E5E42106727F009E2A83 /* Assets.xcassets in Resources */,
+				9642E5E22106727D009E2A83 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9642E5EB21067280009E2A83 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9642E5F621067280009E2A83 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9642E5D52106727D009E2A83 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9642E5DF2106727D009E2A83 /* ViewController.swift in Sources */,
+				9642E5DD2106727D009E2A83 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9642E5E921067280009E2A83 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9642E5F221067280009E2A83 /* Arduino_TRTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9642E5F421067280009E2A83 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9642E5FD21067280009E2A83 /* Arduino_TRUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9642E5EF21067280009E2A83 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9642E5D82106727D009E2A83 /* Arduino TR */;
+			targetProxy = 9642E5EE21067280009E2A83 /* PBXContainerItemProxy */;
+		};
+		9642E5FA21067280009E2A83 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9642E5D82106727D009E2A83 /* Arduino TR */;
+			targetProxy = 9642E5F921067280009E2A83 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		9642E5E02106727D009E2A83 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9642E5E12106727D009E2A83 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		9642E5E52106727F009E2A83 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9642E5E62106727F009E2A83 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9642E5FF21067280009E2A83 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		9642E60021067280009E2A83 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9642E60221067280009E2A83 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = N63WMA8228;
+				INFOPLIST_FILE = "Arduino TR/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "LucasBighi.Arduino-TR";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		9642E60321067280009E2A83 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = N63WMA8228;
+				INFOPLIST_FILE = "Arduino TR/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "LucasBighi.Arduino-TR";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		9642E60521067280009E2A83 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = N63WMA8228;
+				INFOPLIST_FILE = "Arduino TRTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "LucasBighi.Arduino-TRTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Arduino TR.app/Arduino TR";
+			};
+			name = Debug;
+		};
+		9642E60621067280009E2A83 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = N63WMA8228;
+				INFOPLIST_FILE = "Arduino TRTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "LucasBighi.Arduino-TRTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Arduino TR.app/Arduino TR";
+			};
+			name = Release;
+		};
+		9642E60821067280009E2A83 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = N63WMA8228;
+				INFOPLIST_FILE = "Arduino TRUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "LucasBighi.Arduino-TRUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Arduino TR";
+			};
+			name = Debug;
+		};
+		9642E60921067280009E2A83 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = N63WMA8228;
+				INFOPLIST_FILE = "Arduino TRUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "LucasBighi.Arduino-TRUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Arduino TR";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9642E5D42106727D009E2A83 /* Build configuration list for PBXProject "Arduino TR" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9642E5FF21067280009E2A83 /* Debug */,
+				9642E60021067280009E2A83 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9642E60121067280009E2A83 /* Build configuration list for PBXNativeTarget "Arduino TR" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9642E60221067280009E2A83 /* Debug */,
+				9642E60321067280009E2A83 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9642E60421067280009E2A83 /* Build configuration list for PBXNativeTarget "Arduino TRTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9642E60521067280009E2A83 /* Debug */,
+				9642E60621067280009E2A83 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9642E60721067280009E2A83 /* Build configuration list for PBXNativeTarget "Arduino TRUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9642E60821067280009E2A83 /* Debug */,
+				9642E60921067280009E2A83 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9642E5D12106727D009E2A83 /* Project object */;
+}
